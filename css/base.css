@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background: var(--bg-primary);
+
+  color: var(--text-primary);
+
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+}
+
+section {
+  padding: 80px 10%;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+button {
+
+  background: var(--primary);
+
+  border: none;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
