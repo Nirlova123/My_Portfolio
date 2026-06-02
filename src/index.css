@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* Global */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family:
+    Inter,
+    system-ui,
+    sans-serif;
+}
+
+/* Gradient Text */
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #38bdf8,
+    #8b5cf6,
+    #ec4899
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Glass Card */
+
+.glass-card {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+}
+
+/* Button */
+
+.btn-primary {
+  padding: 12px 28px;
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    #3b82f6,
+    #8b5cf6
+  );
+  color: white;
+  font-weight: 600;
+  transition: all .3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+}
+
+/* Contact Button */
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 12px 20px;
+
+  border-radius: 12px;
+
+  border: 1px solid rgba(255,255,255,0.15);
+
+  transition: all .3s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-3px);
+  border-color: #8b5cf6;
+}
