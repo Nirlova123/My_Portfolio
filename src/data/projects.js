@@ -14,7 +14,7 @@ export const projects = [
       "PostgreSQL"
     ],
     github:"https://github.com/Nirlova123/Campus_Management_System",
-    live:"#"
+    live:"https://github.com/Nirlova123/Campus_Management_System"
   },
 
   {
@@ -28,23 +28,25 @@ export const projects = [
       "Machine Learning"
     ],
     github:"https://github.com/Nirlova123/Smart_Grid_Stability_Prediction",
-    live:"#"
+    live:"https://github.com/Nirlova123/Smart_Grid_Stability_Prediction"
   },
 
-  {
-    title: "APiWeather",
-    image: apiweather,
-    description:
-      "A full-stack weather forecasting application built with Next.js that provides real-time weather conditions and forecasts using third-party weather APIs.",
-    tech: [
-      "Next.js",
-      "React.js",
-      "JavaScript",
-      "REST API",
-      "CSS",
-      "OpenWeather API"
-    ],
-    github: "https://github.com/Nirlova123/APiWeather",
-    live: "#"
-  }
+ {
+  title: "APiWeather",
+  image: apiweather,
+  description:
+    "A responsive weather forecasting application built with Next.js and React.js that delivers real-time weather data and forecasts through the OpenWeather API. Features include current weather conditions, location-based search, and dynamic weather updates. Deployed on Vercel for fast global delivery, seamless scalability, and optimized performance.",
+  tech: [
+    "Next.js",
+    "React.js",
+    "JavaScript",
+    "REST API",
+    "CSS",
+    "OpenWeather API",
+    "Vercel"
+  ],
+  github: "https://github.com/Nirlova123/APiWeather",
+  live: "https://a-pi-weather.vercel.app/"
+ }
 ];
+

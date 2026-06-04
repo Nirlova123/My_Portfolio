@@ -54,12 +54,12 @@ export default function Projects() {
                   GitHub
                 </a>
 
-                {/* <a
+                <a
                   href={project.live}
-                  className="bg-cyan-500 px-4 py-2 rounded"
+                  className="border px-4 py-2 rounded"
                 >
                   Live
-                </a> */}
+                </a>
 
               </div>
 
