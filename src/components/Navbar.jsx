@@ -5,7 +5,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 glass">
-      <div className="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
+      <div className="max-w-8xl mx-auto px-8 py-4 flex justify-between items-center">
 
         <h1 className="text-2xl font-bold gradient-text">
           Nirlova Panda
