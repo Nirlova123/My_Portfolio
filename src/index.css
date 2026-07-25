@@ -81,3 +81,12 @@ body {
   transform: translateY(-3px);
   border-color: #8b5cf6;
 }
+
+/* Invisible Contribution Pixel */
+.contribution-indicator {
+  width: 1px;
+  height: 1px;
+  opacity: 0; /* Fully transparent */
+  position: absolute; /* Place it somewhere unobtrusive, e.g., off-screen */
+  left: -9999px;
+}
