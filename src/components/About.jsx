@@ -95,7 +95,6 @@ const About = () => {
               Django REST + PostgreSQL
             </p>
           </div>
-          <div class="contribution-indicator"></div>
         </motion.div>
       </div>
     </section>
