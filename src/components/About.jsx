@@ -88,13 +88,13 @@ const About = () => {
             </p>
           </div>
 
-          <div className="glass-card p-6 rounded-2xl">
+          {/* <div className="glass-card p-6 rounded-2xl">
             <Database className="text-pink-400 mb-3" />
             <h4 className="font-semibold mb-2">Backend</h4>
             <p className="text-gray-400 text-sm">
               Django REST + PostgreSQL
             </p>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </section>
